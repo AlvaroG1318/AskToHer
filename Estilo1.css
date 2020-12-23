@@ -1,0 +1,169 @@
+/*Estilo para mi amorcito*/
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: 'Nerko One', cursive;
+    width: 120em;
+    height: 60em;
+    background: #e96443; 
+    background: -webkit-linear-gradient(to right, #c04bc9, #58e1e6); 
+    background: linear-gradient(to right, #c04bc9, #58e1e6); 
+}
+
+header {
+    border: 2px solid black;
+    height: 7em;
+    background-color: black;
+}
+footer {
+    position:relative;top: 40%;
+    border: 2px solid black; 
+    height: 8em;
+    background-color: black;
+}
+
+.div1 {
+    position:relative;top: 3em;
+    display: inline-block;
+    font-size: 2em;
+}
+.div1 h1 {
+    color: blanchedalmond;
+}
+
+.div2 {
+    display: inline;
+    background-color: white;
+    position:relative;top: 3em;
+    font-size: 2em;
+}
+.div2 h2 {
+    color: blanchedalmond;
+}
+.boton1 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background: #0080DE;
+    color: #FFF;
+    text-transform: uppercase;
+    position:relative;top: 10%; 
+    position:relative;right: 10%; 
+    transition: all .12s;
+    margin: auto;
+
+}
+.boton1:hover {
+
+    background-color: blueviolet;
+}
+.boton1 button {
+    background-color: transparent !important;
+    color: black;
+}
+
+.boton2 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background-color: #0080DE;
+    color: #FFF;
+    text-transform: uppercase;
+    position:relative;top: 10%; 
+    position:relative;left: 10%; 
+    transition: all .12s;
+    margin: auto;
+   
+}
+.boton2:hover {
+
+    background-color: blueviolet;
+}
+.boton1 a {
+    text-decoration: none;
+}
+.boton2 a {
+    text-decoration: none;
+}
+.divCuadro {
+    text-align: center;
+    position:relative;top: 30%; 
+}
+.divCuadro p {
+    border:  2px solid;
+    font-size: 1em;
+    display: inline;
+}
+#audio {
+    display: block;
+}
+
+.DivEmergente {
+    position: relative;top: 5em;
+    font-size: 1.5em;
+}
+
+
+/*La cajita*/
+
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    
+}
+
+.window-notice .content {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.content-buttons {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.content-buttons a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background-color: #6d32db;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.content-buttons a:hover {
+    background-color: #006AB8;
+}
+
+.content-text a {
+    color: #0080DE;
+    text-decoration: none;
+}
+
+.content-text a:hover {
+    color: #006AB8;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+
